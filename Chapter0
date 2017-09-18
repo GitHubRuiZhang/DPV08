@@ -1,0 +1,18 @@
+0.1. Use $\lim\limits_{n\rightarrow \infty} \frac{f(n)}{g(n)}$
+(a) $f = \Theta(g)$ 
+(b) $f = O(g)$
+(c) $f = O(g)$ lim = 1/(logn) = 0 when n goes to \infty
+(d) $f = \Theta(g)$ lim = 1 - 10/(10+logn) = 1
+(e) $f = \Theta(g)$ log2 + logn = log3 + logn
+(f) $f = \Theta(g)$ 10logn = 2logn 
+(g) $f = \Omega(g)$ lim = n^0.01/log^2n = 0.01logn/(2loglogn) = 0.01n/(2logn) = \infty
+(h) $f = \Omega(g)$ lim = n/((logn)^3) = logn/(3loglogn) = n/(3logn) = \infty
+(i) $f = \Omega(g)$ lim = 0.1logn/(10loglogn) = 0.1n/(10logn) = \infty
+(j) $f = \Omega(g)$ lim = (logn + 1)loglogn / logn = (n+1)logn / n = logn + logn/n = \inf
+(k) $f = \Omega(g)$ lim = 0.5logn/(3loglogn) = 0.5n/(3logn) = \infty
+(l) $f = \Theta(g)$ lim = 0.5 log_2(n) / (log_2(n) log_2(5)) = 0.5/(log_2(5))
+(m) $f = O(g)$ lim = n(0.666)^n = 0
+(n) $f = \Theta(g)$ 
+(o) $f = \Omega(g)$ lim = n!/(2^n) = 1/2 2/2 3/2 4/2 ....
+(p) $f = O(g)$ lim = logn/log_2(n) * log_2(logn)/log_2(n) = 0
+(q) $f = O(g)$ lim = 0
